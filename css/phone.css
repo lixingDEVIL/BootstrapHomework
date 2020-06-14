@@ -21,9 +21,9 @@ a {
 .navbar-default {
     height: 105px;
     border: none;
-    background-color: #fff;
+    background-color:white;
 }
-.navbar-brand>img {
+.logo {
     line-height: 50%;
     padding: 0;
     margin-top: 10px;
@@ -34,9 +34,9 @@ a {
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 20px;
-    color: #000;
+    color:black;
     height: 70px;
-    background-color: #fff;
+    background-color:white;
     line-height: 50px;
     margin-left: 75px;
 }
@@ -55,7 +55,7 @@ a {
 
 
 /* banner */
-#ban1 {
+#ban{
     background: url("../img/banner.jpg") center;
     height: 365px;
     background-size: cover;
@@ -64,19 +64,19 @@ a {
     text-align: left;
     border-bottom: 4px solid #e1e1e1;
 }
-.ban11 {
+.ban1{
     display: none;
 }
 
-.ban22 {
+.ban2{
     margin-top: 40px;
 }
 
-.ban22 h1 {
+.h1 {
     font-size: 40px;
 }
 
-.ban22 span {
+.ban2 span {
     font-size: 28px;
     line-height: 60px;
 }
@@ -151,14 +151,14 @@ a {
     margin-top: 20px;
 }
 
-.cl1 h1 {
+.air {
     font-size: 30px;
     color: #1c5080;
     padding-top: 30px;
     padding-left: 20px;
 }
 
-.cl1 img {
+.carH {
     padding-top: 50px;
     padding-left: 40px;    
 }
