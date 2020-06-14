@@ -55,7 +55,7 @@ a {
 
 
 /* banner */
-#bn1 {
+#ban1 {
     background: url("../img/banner.jpg") center;
     height: 365px;
     background-size: cover;
@@ -64,27 +64,27 @@ a {
     text-align: left;
     border-bottom: 4px solid #e1e1e1;
 }
-.bn11 {
+.ban11 {
     display: none;
 }
 
-.bn22 {
+.ban22 {
     margin-top: 40px;
 }
 
-.bn22 h1 {
+.ban22 h1 {
     font-size: 40px;
 }
 
-.bn22 span {
+.ban22 span {
     font-size: 28px;
     line-height: 60px;
 }
 
-.ksdz {
-    background-color: #e8420a;
+.fast {
     width: 160px;
     height: 50px;
+    background-color: #e8420a;
     color:white;
     font-size: 25px;
     border: none;
@@ -96,13 +96,13 @@ a {
 
 /* 搜索框 */
 .input-group {
-    text-align: center;
     width: 585px;
     height: 50px;
+    text-align: center;
+    border: 4px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     margin-top: 70px;
-    position: relative;
-    border: 4px solid rgba(0, 0, 0, 0.5);
+    position: relative;   
 }
 
 .input-group input {
@@ -112,16 +112,17 @@ a {
 .btn-search {
     width: 128px;
     height: 50px;
-    background-color: #e8420a;
     border: none;
+    background-color: #e8420a;
+   
 }
 
 .input-group-btn:first-child>.btn,
-.input-group-btn:first-child>.btn-group {
-    background-color: #f2f3f7;
+.input-group-btn:first-child>.btn-group {    
     width: 150px;
     height: 50px;
     border: none;
+    background-color: #f2f3f7;
     color: #666666;
     font-size: 18px;
 }
@@ -140,73 +141,73 @@ a {
 
 
 /* 车辆接送 */
-.cljs0 {
+.cl0 {
     display: none;
 }
 
-.cljs1 {
+.cl1 {
     height: 200px;
     background-color: white;
     margin-top: 20px;
 }
 
-.cljs1 h1 {
+.cl1 h1 {
     font-size: 30px;
     color: #1c5080;
     padding-top: 30px;
     padding-left: 20px;
 }
 
-.cljs1 img {
-    padding-left: 40px;
+.cl1 img {
     padding-top: 50px;
+    padding-left: 40px;    
 }
 
-.cljs1 p {
+.cl1 p {
     font-size: 22px;
     color: #666666;
+    line-height: 30px;
     padding-top: 10px;
     padding-left: 20px;
-    line-height: 30px;
 }
 
-.cljs1 button {
-    border: 1px solid #b5b5b5;
-    background-color: white;
-    border-radius: 10px;
+.cl1 button {
     width: 160px;
     height: 55px;
+    border: 1px solid #b5b5b5;
+    background-color: white;
+    border-radius: 10px;    
     float: right;
     position: relative;
     bottom: 105px;
     right: 35px;
 }
 
-.cljs1 button a {
+.cl1 button a {
     color: #666666;
     font-size: 25px;
     text-decoration: none;
 }
 /* 热门路线 */
-.rmxl0 {
+.rm0 {
     display: none;
 }
 
-.rmxlcard0 {
+.rmcard0 {
     display: none;
 }
 
-.rmxlcard1 {
-    background-color: white;
+.rmcard1 {
     height: 1070px;
+    background-color: white;
     padding-top: 20px;
 }
 
-.rmxlcard1 .rmxl1 {
-    margin-left: 65px;
+.rmcard1 .rm1 {
+    width: 589px;
     height: 80px;
-    background-color:white;
-    width: 588px;
+    margin-left: 65px;    
+    background-color:white;    
     border-bottom: 1px solid #e8e8e8;
     margin-bottom: 20px;
 }
@@ -215,14 +216,14 @@ a {
     padding-right: 0;
 }
 
-.rmxl1 h3 {
+.rm1 h3 {
     float: left;
     border-left: 4px solid #e8420a;
     color: black;
     font-size: 30px;
     padding-left: 15px;
     margin-top: 30px;
-    margin-left: -8px;
+    margin-left: -10px;
 }
 
 .row {
@@ -240,31 +241,31 @@ a {
     margin-top: -90px;
 }
 
-.rmxlcard1 .card-img-overlay {
-    text-align: center;
-    margin: 0 auto;
-    width: 588px;
+.rmcard1 .card-img-overlay {
+    width: 589px;
     height: 115px;
+    text-align: center;
+    margin: 0 auto;    
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
     bottom: 115px;
     color: white;
 }
 
-.rmxlcard1 .card-img-overlay .text-left {
-    font-size: 26px;
+.rmcard1 .card-img-overlay .text-left {
+    font-size: 25px;
     padding-left: 15px;
     padding-top: 12px;
     line-height: 45px;
 }
-.rmxl1 .text-left {
-    width: 588px;
+.rm1 .text-left {
+    width: 589px;
 }
 #money {
    font-size: 40px;
 }
 
-.rmxlcard1 .card-img-overlay .text-right {
+.rmcard1 .card-img-overlay .text-right {
     font-size: 20px;
     position: relative;
     bottom: 90px;
@@ -288,18 +289,18 @@ a {
     text-decoration: none;
 }
 /* 使命与愿景 */
-.smyyj0 {
+.mav0 {
     display: none;
 }
 
-.smyyj1 {
+.mav1 {
     background-color: white;
     height: 1700px;
     margin-top: 20px;
     padding-top: 20px;
 }
 
-.smyyj1 .smyyj3 {
+.mav1 .mav3 {
     margin-left: 60px;
     height: 80px;
     background-color: white;
@@ -308,7 +309,7 @@ a {
     margin-bottom: 20px;
 }
 
-.smyyj3 h3 {
+.mav3 h3 {
     float: left;
     border-left: 4px solid #e8420a;
     color: black;
@@ -317,7 +318,7 @@ a {
     margin-top: 30px;
 }
 
-.smyyj3 h3 span {
+.mav3 h3 span {
     font-size: 30px;
     margin-right: 15px;
 }
@@ -326,36 +327,30 @@ a {
     padding: 0;
 }
 
-#smyyj .card {
+#mav .card {
     text-align: center;
     margin: 0 auto;
 }
 
-#smyyj .card img {
+#mav .card img {
     width: 590px;
+}
+
+#adv  {
+    display: none;
 }
 
 #ys {
     display: none;
 }
 
-#fwys {
-    display: none;
-}
-
-#footer1 {
-    display: none;
-}
-
-
-
-.smyyj1 .tc1 {
+.mav1 .tc1 {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-.smyyj1 .fwln {
+.mav1 .ln {
     width: 590px;
     font-size: 20px;
     line-height: 35px;
@@ -363,46 +358,47 @@ a {
     margin-bottom: 30px;
 }
 
-.smyyj1 .smbn {
+.mav1 .smbn {
     width: 590px;
     margin: 0 auto;
 }
 
-.smyyj1 .tc2 {
+.mav1 .tc2 {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-.ystw1 {
+.ysqu1 {
     width: 590px;
     margin: 0 auto;
 }
 
-.tw {
+.qu {
     height: 150px;
     width: 590px;
     border-bottom: 1px solid #e8e8e8;
 }
-
-.tw p {
+.qu p {
     font-size: 20px;
     padding-left: 70px;
-    margin-top: 45px;
+    margin-top: 41px;
 }
-
-.tw img {
+#icon11{
+    padding-top: 46px;
+}
+.qu img {
     padding-top: 40px;
     padding-left: 80px;
 }
 /* 页尾 */
-#footer0 {
+#foot0 {
     background-color: #343235;
     font-size: 20px;
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#footer1 {
+#foot1 {
     display: none;
 }

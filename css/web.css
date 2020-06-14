@@ -95,7 +95,7 @@ a{
 
 
 /* banner */
-#bn1 {
+#ban1 {
     background: url("../img/banner.jpg") center;
     height: 450px;
     background-size: cover;
@@ -105,37 +105,37 @@ a{
     border-bottom: 4px solid #e1e1e1;
 }
 
-#bn1 h1 {
+#ban1 h1 {
     margin-top: 65px;
     margin-bottom: 35px;
     font-size: 50px;
 }
 
-#bn1 .topline {
+#ban1 .top {
     border-top: 1px solid #fff;
     line-height: 40px;
     padding-top: 15px;
 }
 
-#bn1 .downline {
+#ban1 .down {
     border-bottom: 1px solid #fff;
     line-height: 40px;
     padding-bottom: 15px;
 }
 
-#bn1 span {
+#ban1 span {
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-#bn1 span{
+#ban1 span{
     padding: 0;
 }
-.bn22 {
+.ban22 {
     display: none;
 }
 
-.ksdz {
+.fast {
     display: none;
 }
 /* 搜索框 */
@@ -178,7 +178,7 @@ a{
 }
 
 /* 车辆接送 */        
-#cljs{
+#cl{
     background-color: #1c5080;
     color: white;
     width: 1200px;
@@ -186,24 +186,24 @@ a{
     margin: 0 auto;
     border-radius: 5px;
 }
-#cljs .media-left img {
+#cl .media-left img {
     margin-left: -15px;
 }
 
-#cljs .media-body img {
+#cl .media-body img {
     margin-top: 80px;
 }
 
-#cljs .media-body p {
+#cl .media-body p {
     font-size: 26px;
     margin-top: 17px;
 }
 
-#cljs .container {
+#cl .container {
     margin-top: 30px;
 }
 
-#cljs .media-body button {
+#cl .media-body button {
     width: 180px;
     height: 50px;
     background: none;
@@ -212,38 +212,38 @@ a{
     margin-top: 40px;
 }
 
-#cljs .media-body button a {
+#cl .media-body button a {
     text-decoration: none;
     font-size: 24px;
     color: #fff;
 }
 
-#cljs .text-left {
+#cl .text-left {
     position: absolute;
     left: 700px;
     top: 630px;
     color: #fff;
 }
 
-#cljs .text-left h3 {
+#cl .text-left h3 {
     font-size: 36px;
 }
 
-#cljs .text-left h5 {
+#cl .text-left h5 {
     font-size: 18px;
     line-height: 30px;
     margin-top: 15px;
 }
-.cljs1 {
+.cl1 {
     display: none;
 }
 /* 热门路线 */ 
-#rmxl h3 {
+#rm h3 {
     font-size: 36px;
     margin-top: 30px;
 }
 
-#rmxl p {
+#rm p {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -253,17 +253,17 @@ a{
     font-size: 30px;
 }
 
-#rmxlcard .left {
+#rmcard .left {
     float: left;
     margin-left: -16px;
 }
 
-#rmxlcard .right {
+#rmcard .right {
     float: right;
     margin-right: -16px;
 }
 
-#rmxlcard .right .card-img-overlay {
+#rmcard .right .card-img-overlay {
     position: relative;
     bottom: 90px;
     color: #fff;
@@ -271,62 +271,61 @@ a{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#rmxlcard .right .card {
+#rmcard .right .card {
     margin-bottom: -86px;
 }
 
-#rmxlcard .right .card-title {
+#rmcard .right .card-title {
     padding-left: 35px;
     text-align: left;
     line-height: 35px;
     padding-top: 10px;
 }
 
-#rmxlcard .left .card1 .card-img-overlay {
+#rmcard .left .card1 .card-img-overlay {
     margin-bottom: 4px;
     color: #fff;
     background-color: #000;
     height: 105px;
 }
 
-#rmxlcard .left .card2 .card-img-overlay {
-    /* margin-top: -14px; */
+#rmcard .left .card2 .card-img-overlay {
     color: #fff;
     background-color: #000;
     height: 90px;
 }
 
-#rmxlcard .card-img-overlay .card-title {
+#rmcard .card-img-overlay .card-title {
     font-size: 20px;
 }
 
-#rmxlcard .left .card1 .card-img-overlay .card-title {
+#rmcard .left .card1 .card-img-overlay .card-title {
     padding-left: 35px;
     text-align: left;
     padding-top: 16px;
     line-height: 35px;
 }
 
-#rmxlcard .left .card2 .card-img-overlay .card-title {
+#rmcard .left .card2 .card-img-overlay .card-title {
     padding-left: 35px;
     text-align: left;
     padding-top: 10px;
     line-height: 35px;
 }
-.rmxl1 {
+.rm1 {
     display: none;
 }
 
-.rmxlcard1 {
+.rmcard1 {
     display: none;
 } 
 /* 使命与愿景   */
-#ys .container .row {
+#adv .container .row {
     margin-bottom: 4px;
     width: 1200px;
 }
 
-#fwys {
+#ys {
     background-color: #1c5080;
     color: white;
     width: 1200px;
@@ -337,34 +336,34 @@ a{
     margin-left: -30px;
 }
 
-#fwys img {
+#ys img {
     margin-left: -65px;
     margin-top: 45px;
 }
 
-#fwys .inner {
+#ys .inner {
     margin-left: -125px;
     margin-top: 0px;
 }
 
-#fwys h3 {
+#ys h3 {
     font-size: 20px;
     margin-top: -65px;
     margin-bottom: 50px;
 }
 
-#fwys p {
+#ys p {
     font-size: 16px;
     line-height: 30px;
     margin-top: 85px;
 }
 
-#smyyj h3 {
+#mav h3 {
     font-size: 36px;
     margin-top: 50px;
 }
 
-#smyyj p {
+#mav p {
     font-size: 16px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -374,7 +373,7 @@ a{
     margin-left: -15px;
 }
 
-#ystw {
+#ysqu {
     background-color: #1c5080;
     color: white;
     width: 1200px;
@@ -385,12 +384,12 @@ a{
     margin-left: -30px;
 }
 
-#ystw h3 {
+#ysqu h3 {
     margin-top: 90px;
     font-size: 26px;
 }
 
-#ystw p {
+#ysqu p {
     font-size: 16px;
     line-height: 36px;
     text-align: left;
@@ -398,7 +397,7 @@ a{
     margin-top: 40px;
     margin-left: 90px;
 }
-.smyyj1 {
+.mav1 {
     display: none;
 }
 
@@ -413,45 +412,42 @@ footer {
     padding-top: 45px;
 }
 
-#footer1 {
+#foot1 {
     margin-top: -5px;
     background-color: #000;
 }
-
-#links {
+#link {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-
-.rooter-left {
+.root-l {
     color: #fff;
     font-size: 18px;
 }
-
-#links a {
+#link a {
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
 
-#links li {
+#link li {
     text-align: left;
     position: relative;
     bottom: 23px;
 }
 
-#links ul {
+#link ul {
     margin-left: 100px;
 }
 
-#links li {
+#link li {
     margin-left: 15px;
     padding: 0;
 }
 
-#links .short li {
+#link .short li {
     margin-left: 12px;
 }
-#footer0 {
+#foot0 {
     display: none;
 }
